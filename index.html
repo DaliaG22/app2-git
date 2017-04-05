@@ -1,0 +1,362 @@
+﻿<!doctype html>
+<html>
+ <head>
+ <meta charset="utf-8">
+ <title>segunda aplicacion</title>
+
+  <!--grupo CSS-->
+   <link rel="stylesheet" href="css/tema-app1.min.css"/>
+   <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+   <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+   <!--grupo JavaScript-->
+   <script src="js/jquery-1.11.2.min.js"></script>
+   <script src="js/jquery.mobile-1.4.5.min.js"></script>
+   <script src="js/acciones.js"></script>
+   <script src="phonegap.js"></script>
+   
+   <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+   </script>
+   <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+ </head>
+    
+   <body onLoad="MM_preloadImages('imagenes/sustitucion1.png','imagenes/sus2.png')">
+    
+    <div data-role="page" id="Principal" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1> Telefonia celular </h1>
+      </div>
+      <div data-role="main" class="ui-content">
+       <div data-role="collapsible" data-content-theme="false">
+        <h1> Foto del celular 1</h1>
+        <div>
+         <br>
+         </div>
+         <div>
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','imagenes/sustitucion1.png',1)"><img src="imagenes/sustitucion.png" width="217" height="213" id="Image18"></a> 
+         </div>
+        </div>
+        <!--colapsable-->
+ <div data-role="collapsible" data-content-theme="false">
+        <h1> Foto del celular 2</h1>
+        <div>
+         <br>
+         </div>
+         <div>
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','imagenes/sus2.png',1)"><img src="imagenes/sus1.png" width="216" height="199" id="Image17"></a> </div>
+        </div>
+        <!--cierra colpsable-->
+       </div>
+       <div>
+        <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+        <li class="ui-first-child ui-last-child">
+         <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2> Definicion Del Telefono Celular </h2>
+           <p> Se muestra la definicion del telefono </p> 
+         </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+         <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+           <h2> Historia del Telefono celular </h2>
+           <p> Se muestra la historia del telefono </p>
+         </a>
+      </li>
+      <li class="ui-first-child ui-last-child">
+         <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2> Clasificacion de los Celulares por Gamas </h2>
+            <p> Muestran las diferentes gamas de celulares </p>
+         </a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+          <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2> Compañias telefonicas </h2>
+            <p> Se muestran las compañias telefonicas </p>
+          </a>
+        </li>
+        </ul>
+        <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/wow1.jpg" alt="wow1" title="wow1" id="wows1_0"/></li>
+		<li><img src="data1/images/wow2.png" alt="wow2" title="wow2" id="wows1_1"/></li>
+		<li><img src="data1/images/wow3.png" alt="wow3" title="wow3" id="wows1_2"/></li>
+		<li><img src="data1/images/wow4.png" alt="wow4" title="wow4" id="wows1_3"/></li>
+		<li><img src="data1/images/wow5.png" alt="wow5" title="wow5" id="wows1_4"/></li>
+		<li><img src="data1/images/wow6.png" alt="wow6" title="wow6" id="wows1_5"/></li>
+		<li><img src="data1/images/wow7.png" alt="wow7" title="wow7" id="wows1_6"/></li>
+		<li><img src="data1/images/wow8.png" alt="wow8" title="wow8" id="wows1_7"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/wow9.png" alt="jquery slider" title="wow9" id="wows1_8"/></a></li>
+		<li><img src="data1/images/wow10.png" alt="wow10" title="wow10" id="wows1_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="wow1"><span><img src="data1/tooltips/wow1.jpg" alt="wow1"/>1</span></a>
+		<a href="#" title="wow2"><span><img src="data1/tooltips/wow2.png" alt="wow2"/>2</span></a>
+		<a href="#" title="wow3"><span><img src="data1/tooltips/wow3.png" alt="wow3"/>3</span></a>
+		<a href="#" title="wow4"><span><img src="data1/tooltips/wow4.png" alt="wow4"/>4</span></a>
+		<a href="#" title="wow5"><span><img src="data1/tooltips/wow5.png" alt="wow5"/>5</span></a>
+		<a href="#" title="wow6"><span><img src="data1/tooltips/wow6.png" alt="wow6"/>6</span></a>
+		<a href="#" title="wow7"><span><img src="data1/tooltips/wow7.png" alt="wow7"/>7</span></a>
+		<a href="#" title="wow8"><span><img src="data1/tooltips/wow8.png" alt="wow8"/>8</span></a>
+		<a href="#" title="wow9"><span><img src="data1/tooltips/wow9.png" alt="wow9"/>9</span></a>
+		<a href="#" title="wow10"><span><img src="data1/tooltips/wow10.png" alt="wow10"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">responsive slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+       </div>
+       <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+         <div>
+           <img src="imagenes/logo.png" width="46" height="46">
+         </div>
+         <div>
+           <h4> Aplicacion Dos </h4>
+           <h4> Rosa Dalia Garcia Montes </h4>
+         </div>
+         </div>
+         </div>
+         <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+           <h1> DEFINICION </h1>
+          </div>
+          <div data-role="content" align="center">
+           <div>
+             <h2> Dispositivo electrónico que permite realizar múltiples operaciones de forma inalámbrica en cualquier lugar donde tenga señal. Entre las múltiples operaciones se incluyen la realización de llamadas telefónicas, navegación por internet, envío de mensajes de texto (SMS), captura de fotos y sonidos, reloj, agenda, realización de pagos, etc. </h2>
+             <!--colapsable-->
+ <div data-role="collapsible" data-content-theme="false">
+        <h1> Foto del celular 1</h1>
+        <div>
+         <p>Samsung s7</p>
+         <br>
+         </div>
+         <div>
+           <img src="imagenes/Samsung-s7.png" width="31%" height="34%">
+         </div>
+        </div>
+        <!--cierra colpsable-->
+        <!--colapsable-->
+ <div data-role="collapsible" data-content-theme="false">
+        <h1> Foto del celular 2</h1>
+        <div>
+         <p>Samsung j7</p>
+         <br>
+         </div>
+         <div>
+           <img src="imagenes/Samsung-J7.PNG" width="30%" height="31%">
+         </div>
+        </div>
+        <!--cierra colpsable-->
+        <!--colapsable-->
+ <div data-role="collapsible" data-content-theme="false">
+        <h1> Foto del celular 3</h1>
+        <div>
+         <p>Samsung Grand Prime</p>
+         <br>
+         </div>
+         <div>
+           <img src="imagenes/samsung-prime.png" width="38%" height="36%">
+         </div>
+        </div>
+        <!--cierra colpsable-->
+             
+           </div>
+           </div>
+           <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion dos, RDGM </H4>     
+            </div>
+           </div>
+             
+             
+           <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+            <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+             <h1> HISTORIA DEL TELEFONO CELULAR </h1>
+            </div>
+            <div data-role="content" align="center">
+              <div> 
+                <h2> En 1939, solo el 3,5% de los estadounidenses tenian telefonos en sus casas. En ese mismo año la exhibicion Futurama de la feria mundial anticipo los telefonos portatiles inalambricos.Tres años mas tarde los soldados norteamericanos llevaron el antecesor del celular al campo de batalla. La compañia Motorola especializada en la fabricacion de radios de doble via, presenta su tranmisor del mismo nombre, que permitia tener comunicadas las tropas en la segunda guerra mundial.
+ </h2>
+ </div>
+ <!--colapsable-->
+ <div data-role="collapsible" data-content-theme="false">
+        <h1> Foto del celular 1</h1>
+        <div>
+         <p>Motorola</p>
+         <br>
+         </div>
+         <div>
+           <img src="imagenes/motorola1.png" width="28%" height="28%">
+         </div>
+        </div>
+        <!--cierra colpsable-->
+        <!--colapsable-->
+ <div data-role="collapsible" data-content-theme="false">
+        <h1> Foto del celular 2</h1>
+        <div>
+         <p>Soni Ericsson</p>
+         <br>
+         </div>
+         <div>
+           <img src="imagenes/sony-ericsson.png" width="26%" height="26%">
+         </div>
+        </div>
+        <!--cierra colpsable-->
+         <!--colapsable-->
+ <div data-role="collapsible" data-content-theme="false">
+        <h1> Foto del celular 3</h1>
+        <div>
+         <p>Nokia</p>
+         <br>
+         </div>
+         <div>
+           <img src="imagenes/nokia1.png" width="25%" height="26%">
+         </div>
+        </div>
+        <!--cierra colpsable-->
+ 
+              </div>
+             <div data-role="footer" data-theme="a" data-position="fixed">
+              <h4> Aplicacion dos, RDGM </h4>
+               </div>
+               </div>
+                
+                
+  <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1> Clasificacion Por Gamas  </h1>
+   </div>
+   <div data-role="content" align="center">
+     <div> 
+        <!--colapsable-->
+ <div data-role="collapsible" data-content-theme="false">
+        <h1> Gama Alta</h1>
+        <div>
+         <p>En este nivel encajan los smartphones que estén dotados con casi todos los elementos más evolucionados de la telefonía móvil.Por ejemplo el Samsung Galaxy Mega 6.3 que cuenta con características notables, pero llegó con procesador de doble núcleo y memoria RAM de 1.5GB, cuando en el mercado existen teléfonos celulares con cuatro núcleos y 2GB de RAM.</p>
+         <br>
+         </div>
+         <div>
+           <img src="imagenes/gama-alta.png" width="25%" height="28%">
+         </div>
+        </div>
+        <!--cierra colpsable--> 
+         <!--colapsable-->
+ <div data-role="collapsible" data-content-theme="false">
+        <h1> Gama Media</h1>
+        <div>
+         <p> Los smartphones de media gama se caracterizan por tener pantallas de calidad, pero de menor tamaño, resolución y profundidad de pixeles por pulgada; en la mayoría de los casos funcionan con una versión anterior a la más actual de su sistema operativo; los procesadores no tienen la potencia de los que encontramos en gamas superiores, y las cámaras y fotográficas generalmente cuentan con menos cantidad de megapíxeles.</p>
+         <br>
+         </div>
+         <div>
+           <img src="imagenes/gama-media.png" width="28%" height="29%">
+         </div>
+        </div>
+        <!--cierra colpsable--> 
+         <!--colapsable-->
+ <div data-role="collapsible" data-content-theme="false">
+        <h1> Gama Baja</h1>
+        <div>
+         <p> En esta categoría distribuiremos los celulares inteligentes con plataformas que no dan soporte a muchas utilidades que tienen los teléfonos de otras gamas. Sus pantallas son de escasas dimensiones y resolución, poca memoria RAM y mínima capacidad de almacenamiento interno, menores herramientas, acceso a redes y aplicaciones, entre otros aspectos. Se diferencian de los teléfonos básicos (no inteligentes), por el hecho de permitir funcionalidades que van más allá de llamar y recibir llamadas. La clave de todo es que los smartphones trabajan con un sistema operativo informático móvil, dotado de una interfaz para el acceso a Internet, cuentas de correo electrónico y el ingreso de datos a través de un teclado QWERTY. Permiten instalación de programas, la lectura de documentos en distintos formatos y te ayudan a realizar tareas y organizar tus archivos personales. Están diseñados de manera muy sencilla para la fácil y rápida compenetración del usuario, los materiales de fabricación garantizan durabilidad y la batería generalmente es de gran rendimiento.</p>
+         <br>
+         </div>
+         <div>
+           <img src="imagenes/gama-baja.png" width="20%" height="27%">
+         </div>
+        </div>
+        <!--cierra colpsable--> 
+        
+       </div>
+     </div>
+    <div data-role="footer" data-theme="a" data-position="fixed">
+      <h4> Aplicacion dos, RDGM </h4>
+    </div>
+    </div>
+         
+         
+   <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1> Compañias telefonicas </h1>
+     </div>
+     <div data-role="content" align="center">
+      <div>
+         <!--colapsable-->
+ <div data-role="collapsible" data-content-theme="false">
+        <h1> Telcel </h1>
+        <div>
+         <p> Telcel forma parte del grupo América Móvil, el mayor proveedor de comunicación celular en Latinoamérica y el tercer lugar a nivel mundial. Cuenta con más de 328 millones de clientes y está presente en 18 países de América
+Con 24 años de experiencia, cobertura en más de 200 mil poblaciones y una comunidad de mas de 70 millones de usuarios, Telcel es la empresa líder de telecomunicaciones inalámbricas en México, la compañía de teléfonos celulares de mayor confianza en México y la segunda marca más valiosa de Latinoamérica.</p>
+         <br>
+         </div>
+         <div>
+         <a href=" http://www.telcel.com"/><img src="imagenes/telcel.png" width="28%" height="29%"> </a>
+         </div>
+        </div>
+        <!--cierra colpsable-->
+         <!--colapsable-->
+ <div data-role="collapsible" data-content-theme="false">
+        <h1> AT&T </h1>
+        <div>
+         <p> AT&T (American Telephone and Telegraph) es una compañía estadounidense de telecomunicaciones. ... Durante su larga historia ha sido, en ocasiones, la compañía telefónica más grande del mundo y el operador de televisión por cable más grande de los Estados Unidos, llegando a ser clasificada como un monopolio..</p>
+         <br>
+         </div>
+         <div>
+         <a href="https://www.att.com/es-us/"/><img src="imagenes/AT&T.png" width="22%" height="16%"> </a>
+         </div>
+        </div>
+        <!--cierra colpsable-->
+          <!--colapsable-->
+ <div data-role="collapsible" data-content-theme="false">
+        <h1> MOVISTAR </h1>
+        <div>
+         <p> Es una empresa que se creo en el año de 1999 con la finalidad de atender al mercado de las telecomunicaciones, nace en la ciudad de Guadalajara expandiéndose a los estados de de Guanajuato, Nayarit, Michoacán, Colima, Zacatecas, Aguascalientes.</p>
+         <br>
+         </div>
+         <div>
+         <a href="http://www.movistar.com.mx/"/><img src="imagenes/movistar.png" width="25%" height="15%"> </a>
+         </div>
+        </div>
+        <!--cierra colpsable-->
+         <!--colapsable-->
+ <div data-role="collapsible" data-content-theme="false">
+        <h1> UNEFON </h1>
+        <div>
+         <p> Unefón es una compañía mexicana de telefonía móvil propiedad de AT&T, la cual se dedica a ofrecer únicamente el esquema de cobro de prepago</p>
+         <br>
+         </div>
+         <div>
+          <a href="https://www.unefon.com.mx/?gclid=COKO9aHqjdMCFQaDaQodG40NXA&gclsrc=aw.ds"/> <img src="imagenes/unefon.png" width="31%" height="15%"></a>
+         </div>
+        </div>
+        <!--cierra colpsable-->
+         </div>
+         
+     </div>
+       <div data-role="footer" data-theme="a" data-position="fixed">
+       <h4> Aplicacion dos, RDGM </h4>
+     </div>
+     </div>
+         
+   </body>
+</html>
